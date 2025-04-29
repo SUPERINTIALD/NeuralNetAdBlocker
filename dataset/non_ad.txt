@@ -5982,7 +5982,6 @@ inline-show-more-text--is-collapsed
 pvs-sticky-header-profile-actions__action
 social-detail-social-counts__count-icon--1
 artdeco-dropdown__trigger
-pv-right-rail__sticky-ad-banner
 pr4
 basic-input
 feed-shared-inline-show-more-text
@@ -6070,7 +6069,6 @@ global-nav__search-typeahead
 presence-entity__indicator--size-1
 ember-view
 fade-load
-ad-banner-container
 artdeco-carousel__heading--custom
 app-boot-bg-skeleton
 authentication-outlet
@@ -6255,7 +6253,6 @@ artdeco-notification-badge
 t-sans
 MkMAkgRBNTjosjbAdcgywiwkEBNGYVPwuCX
 t-bold
-ad-banner
 global-nav__primary-item--divider
 NKaBWIzSRMViJFPuFIkgpMSMcelVIKYYYhg
 EntityPhoto-circle-0-stackedFacepile
@@ -8899,7 +8896,6 @@ header
 flickity-prev-next-button
 cn
 sidemargin0
-ad_container
 howto__player_tag_container
 arrow
 width
@@ -9111,7 +9107,6 @@ vn
 single_line_hidden
 horizontal
 menu
-ad_container
 desktop-hide
 deck_card_key_zap-ev1
 tiny
@@ -9201,7 +9196,6 @@ margin0
 accordion
 language
 rating
-ad
 github
 irs-bar
 right_rail
@@ -9509,12 +9503,9 @@ dropdown-menu
 group-content
 type-logo-lg
 header
-ad-leaderboard
 quests
-game-category-ads
 body
 games
-homepage-bottom-ad
 latest-achievements
 social
 modal-body
@@ -9576,7 +9567,6 @@ modal-header
 featured-link
 dropdown-item
 more
-ad-medrec
 footer-bottom
 updated
 logo
@@ -9716,8 +9706,6 @@ party
 css-4blv3u
 e55wwux0
 css-kz1pwz
-Grid-L4PRKzz7
-ad
 css-1dv1kvn
 css-15iksc8
 mobileOnly
@@ -9799,7 +9787,6 @@ css-le4k3i
 vhs-icon-transcript-off
 css-1fvhbq8
 vhs-icon-cc-on
-dfp-ad-top-wrapper
 css-1yg7u8y
 desktop
 css-122y91a
@@ -9971,7 +9958,6 @@ css-1gwp7w6
 captions-2YSIFrBk
 g-large-opinion-label
 css-7s6arl
-dfp-ad-bottom-wrapper
 g-block
 carousel-story-7
 vhs-plugin-controls-play
@@ -15141,7 +15127,6 @@ ExpandableMenu--inner--d7mmL
 SiteNavigationLinks--navigationList--FxUnD
 styles--rootMoreMenu---tIXm
 AccountLinks--buttonDiv--ZigJ+
-adLabel
 styles--LocalsuiteNavBkgnd--kiuId
 appDriver--illustrationsWrap--oa7Zw
 ContentMedia--listItemTitle--mvOyq
@@ -15183,7 +15168,6 @@ AccountLinks--createAccountButton--YM2Pi
 MediaObject--fullMedia--F7neI
 LanguageSelector--LanguageSelector--+88Kw
 PromoDriver--cardContent--4L+hA
-BaseAd--ad_module--ajh9S
 Footer--iconStormRadar--obHI6
 SearchInput--fieldset--GKZYD
 CurrentConditions--tempValue--zUBSz
@@ -15260,7 +15244,6 @@ ContentMedia--impact--KDd5M
 styles--weatherData--Tl3Lx
 LanguageSelector--Content--IY8mH
 styles--locationName--zoGXR
-BaseAd--adWrapper--ANZ1O
 ListView--listViewImg--SqQtI
 halfWidth
 MainMenuHeader--twcLogo--MHMAp
@@ -15395,7 +15378,6 @@ LanguageSelector--LanguageSection--wi4vW
 CurrentConditions--CurrentConditions--4Lqax
 region-contentTop
 ContentMedia--mediaImg--2SWXk
-BaseAd--adLabel--JGSp6
 Header--impactTitleHref--vvfgD
 layout-centered
 styles--mini--EJns8
@@ -15448,7 +15430,6 @@ ListView--listViewContainer--Sqnsn
 styles--root--22cBk
 CurrentConditions--searchOverlay--bwFuF
 RecentLocations--container--Vn06V
-adWrapper
 Footer--logoLockup--WSavD
 AccountLinks--popupSection--t7duV
 Button--primary--I3yI4
@@ -15467,7 +15448,6 @@ RecentLocations--clearButton--Kia-a
 ListView--listView---8Ujq
 Header--impactTitle--eDDi9
 DaybreakLargeScreen--gridWrapper--ZHESz
-ad_module
 AccountLinks--createAccountTitle--0H2fy
 SecondaryDataView--mediaStacked--VBqvg
 MainMenu--menuInner--D6jqQ
@@ -17360,7 +17340,6 @@ flex-col
 md:flex-1
 whitespace-pre-line
 MobileLanguageMenu-module_close-btn-wrapper__oMaLt
-AdSense
 MobileNavMenu-module_header__Icr2N
 w-full
 md:mt-[36px]
@@ -17800,7 +17779,6 @@ flex-col
 md:flex-1
 whitespace-pre-line
 MobileLanguageMenu-module_close-btn-wrapper__oMaLt
-AdSense
 size-12
 MobileNavMenu-module_header__Icr2N
 w-full
@@ -18249,7 +18227,6 @@ mt-8
 MobileNavMenu-module_close-btn__dwksY
 md:font-bold
 [&_strong]:text-gray-900
-ad
 md:pl-2
 -translate-y-1/2
 md:mt-0
@@ -18333,7 +18310,6 @@ Wrapper-module_wrapper__Weu-W
 flex-col
 md:flex-1
 MobileLanguageMenu-module_close-btn-wrapper__oMaLt
-AdSense
 my-1
 MobileNavMenu-module_header__Icr2N
 w-full

@@ -446,7 +446,6 @@ ad-full_span-container
 advert-bronze
 container-adds
 adsmalltext
-header-wrapper
 playwire-article-leaderboard-ad
 home-adv-box
 mod_ads
@@ -473,7 +472,6 @@ adLeader
 widget_viral_advertisement
 Advertisement_container__K7Jcq
 ad-slot__content
-Header
 widget_singlead
 adfree
 BIG_ADS_JS
@@ -606,7 +604,6 @@ advertorial_red
 adsense_leader
 ad-style2
 js_slideshow-full-width-ad
-header-top
 advertbox
 ad-ban
 ad-promo
@@ -1133,7 +1130,6 @@ spinAdvert
 adtop
 inews__advert
 middle_ad_responsive
-section-header
 ad-static
 bl-broadcaster
 AdModule
@@ -1298,7 +1294,6 @@ td-header-rec-wrap
 advertise-leaderboard
 ad-site-top-full-width
 adbox-title
-header
 ubergizmo-dfp-ad
 c_nt_ad
 adboxo
@@ -3030,7 +3025,6 @@ articleBottom-ads
 ads_left
 ad-parallax
 ise-ad
-ytp-suggested-action-badge
 bottom-post-ads
 ads-relatedbottom
 leaderboardwrap
@@ -4389,7 +4383,6 @@ intra-article-ad-half
 content-leaderboard
 mobile_featuredad
 ads-block-rightside
-header-bottom
 advert--right-rail
 clsy-c-advsection
 homepage_ads
@@ -5800,7 +5793,6 @@ ipsAdvertisement
 index-module_adBeforeContent__UYZT
 adRoot-loop-ad
 wall-ads-control
-masthead-container
 AdSenseLeft
 ad-link-grey
 kumpulads-post
@@ -6396,7 +6388,6 @@ responsive_ad_top
 div_advertisement
 advertisement-sidebar
 snippet-ad
-leaderboard-header-wrapper
 google-ads-in_article
 adb-os-inarticle-block
 deskad
@@ -10252,7 +10243,6 @@ ad_mpu300x250
 game_details_ad
 ad-header-mad
 cellAd
-header-top
 ad-ban
 ad-promo
 sticky-ad-header
@@ -10554,7 +10544,6 @@ video-under-player-ad
 adsense-middle
 smallerAd
 adBanner
-header
 ad-Superbanner
 bigboard_ad
 btnads
@@ -10734,7 +10723,6 @@ banner-ads
 sideBannerAd
 ad-sidebar-4
 ads_728x90_top
-after-header-wrapper
 ad_stck
 bnrAd
 ads_box
@@ -13076,7 +13064,6 @@ ad_midstrip
 ad-fullbanner2
 ad_300
 ad_slot_bottom
-Header_1
 ad_block
 ad-standard-wrap
 rightAdvBlock

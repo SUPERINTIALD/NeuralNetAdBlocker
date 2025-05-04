@@ -1,15 +1,17 @@
+from __future__ import annotations
 from flask import Flask, request
 from flask_cors import CORS
 from bs4 import BeautifulSoup
 import torch
-import torch.nn as nn
+from model_v5 import encode, load_checkpoint, DEVICE
+from functools import partial
 
-"""
-DEFINE NN MODEL:
-"""
-sensitivity = 0.8  # Adjust sensitivity as needed
-model = torch.load('models/model.pkl')
+model, char2idx, _ = load_checkpoint("models/model_v5.4.pth", device=DEVICE)
+model.eval()
 
+encode_rt = partial(encode, max_len=32)
+
+sensitivity = 0.95
 
 app = Flask(__name__)
 CORS(app)  # Allow Chrome extension to call us
@@ -23,32 +25,31 @@ def process_html():
     soup = BeautifulSoup(html, 'html5lib')
 
     # Collect divs to delete
-    non_ad = open("dataset/non_ad.txt", "a")
     divs_to_remove = []
-    classes = []
+
     for tag in soup.find_all(True):
+        classes = []
         class_list = tag.get('class') or []
         id_attr = tag.get('id')
         if isinstance(id_attr, list):
             id_attr = ''.join(id_attr)
             classes.append(id_attr)
         classes.extend(class_list)
-        # print(class_list)
-        """
-        CALL NN
-        """
-        model.
-        # if any('ad' in c.lower() for c in class_list):
-        #     divs_to_remove.append(tag)
-    for c in list(set(classes)):
-        non_ad.write(f"{c}\n")
-    non_ad.close()
+
+        with torch.no_grad():
+            for s in classes:
+                x = encode_rt(s).unsqueeze(0).to(DEVICE)  # shape (1, 32)
+                prob = torch.sigmoid(model(x)).item()  # 0-1 probability
+                pred = int(prob >= sensitivity)
+                if pred == 1:
+                    print(str(tag))
+                    divs_to_remove.append(tag)
+                    break
 
     # Now safely remove them
     for div in divs_to_remove:
         try:
-            continue
-            # div.decompose()
+            div.decompose()
         except:
             continue
 

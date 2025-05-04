@@ -1,6 +1,6 @@
 (async function() {
   console.log('Waiting for dynamic content...');
-  await new Promise(resolve => setTimeout(resolve, 3000)); // wait 3 seconds
+  await new Promise(resolve => setTimeout(resolve, 6000)); // wait 3 seconds
 
   const html = document.documentElement.outerHTML;
 
